@@ -16,8 +16,8 @@ app.get('/cloud', (req, res) => {
 	res.send('cloudddd');
 });
 
-app.listen(5000, () => {
+const server = app.listen(5000, () => {
 	console.log('listening on port 5000');
 });
 
-// module.exports = server
+module.exports = server
