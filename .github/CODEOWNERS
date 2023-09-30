@@ -1,0 +1,6 @@
+# Reviewer for all files
+* @roastedbeans
+
+
+#Reviewer for JS files
+*.js @roastedbeans
