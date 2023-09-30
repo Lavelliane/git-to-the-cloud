@@ -13,7 +13,7 @@ app.get('/wazup', (req, res) => {
 });
 
 app.get('/cloud', (req, res) => {
-	res.send('cloudddd');
+	res.send('cloudddd hello');
 });
 
 const server = app.listen(5000, () => {
